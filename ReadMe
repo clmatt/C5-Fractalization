@@ -1,3 +1,6 @@
+This is the accompanying code for $C_5$ is Almost a Fractalizer written with Bernard Lidický and Flo Pfender. 
+ArXiv: https://arxiv.org/abs/2102.06773 
+
 -----Case_1_P.cpp-----
 
 This program iterates through all possible 9 <= n <= 1000 in program P in case 1. It outputs which n it is on. If it finds a possible counterexample corresponding to a negative objective value it outputs the part sizes. Note that it does not take into account ordering (unlike in small.cpp), therefore it will only output (2,2,2,1,1) not also (2,2,1,2,1). 
